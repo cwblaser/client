@@ -1,0 +1,62 @@
+#SobreAMassagem {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #faf4f0;
+    margin-bottom: 140px;
+}
+
+.sobre_texto p{
+    margin-top: 15px;
+    color: #00000090;
+    padding: 15px 0 0 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+.sobre_titulo h1 {
+    font-family: 'Marcellus Regular';
+    color: #a0f94e;
+}
+
+.gradient--left {
+    position: relative;
+}
+
+.gradient_absolut_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #faf4f0);
+}
+.gradient_absolut_right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, transparent, #faf4f0);
+}
+
+.gradient--right {
+    position: relative;
+}
+
+.gradient--center {
+    background-color: #faf4f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 960px)  {
+    #SobreAMassagem {
+        padding: 45px 0 45px 0;
+    }
+}

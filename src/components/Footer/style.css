@@ -1,0 +1,67 @@
+#Footer {
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.f--contatos {
+    margin-top: 64px;
+    flex-direction: column;
+}
+
+.f--contatos strong {
+    margin-bottom: 13px;
+}
+
+.conts--one, .conts--three {
+    color: #000;
+}
+.conts--two {
+    color: #000;
+    font-size: 1.3em;
+}
+.conts--two a,
+.conts--two a:link,
+.conts--two a:visited,
+.conts--two a:hover,
+.conts--two a:active {
+    color: #a3a49c;
+}
+
+.f--redes span {
+    display: flex;
+    color: #000;
+    font-size: 1.3em;
+}
+.f--redes span:hover {
+    color: #a0f94e;
+}
+
+.f--redes span:first-child, .f--redes span:nth-child(2) {
+    margin-right: 13px;
+}
+.f--redes a {
+    cursor: pointer;
+}
+.f--redes a,
+.f--redes a:link,
+.f--redes a:visited,
+.f--redes a:hover,
+.f--redes a:active {
+    color: #fff;
+}
+
+.f--copyRight {
+    color: #6c6b6a;
+}
