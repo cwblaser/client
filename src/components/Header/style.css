@@ -49,20 +49,25 @@
     align-items: center;
     justify-content: center;
     padding: 0 6px 0 6px;
-    cursor: pointer;
     color: #fff;
 }
 
-.nav_top ul li:hover {
-    color: #ff3c40 !important;
+.nav_top ul li a:hover {
+    color: #000 !important;
 }
-.nav_fix ul li:hover {
-    color: #752d2e !important;
+.nav_fix ul li a:hover {
+    color: #000 !important;
 }
 
 .mid--logotipo {
     display: flex;
   }
+
+  .logotipo_column_left img {
+      display: none;
+      width: 42px; 
+      margin: 0px 20px;
+    }
   
   .logotipo_column_right,  .logotipo_column_left{
     height: 100%;
@@ -152,6 +157,8 @@
 /*background-color: #ff3c40;*/
 
 @media only screen and (max-width: 960px)  {
+    .logotipo_column_left img {display: block;}
+    
     #nav {
         display: none;
     }
@@ -162,12 +169,14 @@
     }
 
     #h3 {
-        font-size: 10px;
-        color: #752d2e !important;        
+        
+        font-size: 10.4px;
+        color: #000 !important;
       }
     
       .logotipo_column_right h1 {
-          font-size: 16px;
+          font-weight: 900;
+          font-size: 12.2px;
       }
       
       #logo {

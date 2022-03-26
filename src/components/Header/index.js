@@ -3,6 +3,9 @@ import { useHistory } from 'react-router-dom';
 import { IoIosStar, IoMdClose } from 'react-icons/io';
 import { BsList } from 'react-icons/bs';
 
+//TMP image:
+//import logotype from "../../assets/tmp_logo/logotype_test.png"
+
 //import { home as txts } from '../../constants/txts'
 import txts from '../../constants/translation/pt_br/header.json'
 
@@ -38,7 +41,7 @@ export default function Header (props) {
                     </div>
                 </div>
                     <div className='put_divs_on_left'>
-                        <div id='nav' className='nav_fix'>
+                        <div id='nav' className='nav_top'>
                             <ul>
                                 <li><a href="/">{txts.nav[0].toUpperCase()}</a></li>
                                 <li><a href="/Sobre">{txts.nav[1].toUpperCase()}</a></li>
@@ -65,6 +68,7 @@ export default function Header (props) {
                     <li onClick={() => history.push('/')}>HOME</li>
                     <li onClick={() => history.push('/Sobre')}>SOBRE</li>
                     <li onClick={() => history.push('/Massagem')}>MASSAGEM</li>
+                    <li onClick={() => history.push('/Massagistas')}>MASSAGISTAS</li>
                     <li onClick={() => history.push('/Estetica')}>ESTÉTICA</li>
                     <li onClick={() => history.push('/Contato')}>CONTATO</li>
                 </ul>
