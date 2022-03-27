@@ -20,7 +20,7 @@ export default function Home () {
     return (
         <div className="container" >
             <Header isHome={1}/>
-            <div style={{width:'120px', height:'64px'}}></div>
+            <div style={{width:'120px', height:'58px'}}></div>
             <WhatsApp />
             <ScrollTop/>
             <Banner /> 
